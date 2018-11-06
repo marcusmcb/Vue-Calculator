@@ -104,7 +104,7 @@ export default {
   width: 400px;
   margin: 0 auto;
   display: grid;
-  font-size: 40px;
+  font-size: 30px;
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: minmax(50px, auto);
 }
@@ -113,6 +113,7 @@ export default {
   grid-column: 1 / 5;
   background-color: #333;
   color: white;
+  padding-top: 6px;
 
 }
 
@@ -121,6 +122,7 @@ export default {
 }
 
 .btn {
+  padding-top: 6px;
   background-color: #eee;
   border: 1px solid #333;
 }
